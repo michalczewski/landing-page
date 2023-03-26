@@ -31,6 +31,12 @@ header {
     font-size: 24px;
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 24px;
+}
+
 .hero {
     font-size: 48px;
     font-weight: 800;
@@ -65,7 +71,7 @@ img {
 
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 32px;
     padding: 32px 10%;
 }
 
@@ -108,4 +114,39 @@ text-align: center;
     color: #1f2937;
     align-self: flex-end;
     font-size: 24px;
+}
+
+.call {
+    background-color: #3882f6;
+    margin: 10% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+.calltext {
+    font-size: 16px;
+    font-weight: initial;
+}
+
+#call {
+    background-color: #3882f6;
+    border: solid white;
+    padding: 8px 24px;
+    color: white;
+    align-self: center;
+    margin:  32px;
+
+}
+
+.callcont {
+    flex: 1 0 0;
+    padding: 32px;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 32px;
 }
