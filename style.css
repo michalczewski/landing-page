@@ -1,0 +1,23 @@
+body {
+    background-color: #1f2973;
+}
+
+header {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    color: red
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo {
+    padding: 16px;
+    color: #f9faf8;
+    font-size: 24px;
+}
