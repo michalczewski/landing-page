@@ -1,12 +1,20 @@
 body {
-    background-color: #1f2973;
+    background-color: #1f2937;
 }
 
 header {
+    background-color: #1f2937;
     display: flex;
-    justify-content: space-between ;
+    flex-direction: column;
+    margin: 50px;
+    gap: 48px;
+    margin: 36px 10%
+}
+
+.heada {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    color: red
 }
 
 .links {
@@ -17,7 +25,37 @@ header {
 }
 
 .logo {
-    padding: 16px;
+    padding: 16px 16px 16px 0;
     color: #f9faf8;
     font-size: 24px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    
+}
+button {
+    margin: 14px 0;
+}
+
+.headb {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.container {
+    flex: 1
+}
+#first {
+    flex: 1
+    
+}
+
+#first img {
+    max-width:fit-content;
+    width: 100%;
+
 }
