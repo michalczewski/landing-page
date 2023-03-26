@@ -1,6 +1,7 @@
 body {
     background-color: ;
-    color: white;]
+    color: white;
+    margin: 0;
 }
 
 header {
@@ -88,4 +89,23 @@ text-align: center;
     color: #1f2937;
     font-size: 36px;
     font-weight: 800;
+}
+.quote {
+    background-color: #e5e7eb;
+    padding: 48px 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quotetext {
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+}
+
+.quoteauthor {
+    color: #1f2937;
+    align-self: flex-end;
+    font-size: 24px;
 }
