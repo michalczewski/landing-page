@@ -1,14 +1,14 @@
 body {
-    background-color: #1f2937;
+    background-color: ;
+    color: white;]
 }
 
 header {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    margin: 50px;
     gap: 48px;
-    margin: 36px 10%
+    padding: 36px 10%;
 }
 
 .heada {
@@ -32,12 +32,13 @@ header {
 
 .hero {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #f9faf8;
     
 }
 button {
     margin: 14px 0;
+    align-self: flex-end;
 }
 
 .headb {
@@ -47,15 +48,44 @@ button {
 }
 
 .container {
-    flex: 1
+    flex: 1;
 }
 #first {
     flex: 1
     
 }
 
-#first img {
+img {
     max-width:fit-content;
     width: 100%;
+}
 
+.info {
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 32px 10%;
+}
+
+.infoc img {
+    width: 100%;
+    max-width: 150px;
+    border: solid firebrick;
+}
+
+.infoc {
+max-width: 150px;
+text-align: center;
+}
+
+.infotext {
+    max-width: 150px;
+    color: #1f2937;
+}
+
+.infohead {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
 }
